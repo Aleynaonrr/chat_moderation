@@ -18,6 +18,9 @@ from src.edit_distance import LexiconMatcher
 from src.evaluate import load_models
 from src.normalize import normalize, normalize_tokens
 
+from src.setup_models import ensure_models
+ensure_models()   # fresh clone: download data / train small models / download BERTurk
+
 print("Loading models (about 10-20 s)...")
 MODELS = {name: (predict, thr) for name, _area, _prec, predict, thr, _size in load_models()}
 MODEL_NAMES = list(MODELS)
