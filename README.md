@@ -13,7 +13,7 @@ logs the response time of every message and lets the user switch between five mo
 Requirements: Python 3.11–3.13, internet connection on the first run.
 
 ```bash
-git clone <THIS_REPOSITORY_URL>
+git clone https://github.com/Aleynaonrr/chat_moderation.git
 cd chat_moderation
 
 python -m venv .venv
