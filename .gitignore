@@ -1,0 +1,14 @@
+# Python environment & IDE
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+# Data and models are NOT stored in the repo:
+# data is downloaded by src/data.py, small models are trained on first run,
+# the fine-tuned BERTurk is downloaded from Hugging Face Hub
+data/
+models/
+
+# Archives
+*.zip

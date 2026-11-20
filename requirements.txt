@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+requests
+huggingface_hub
+pyarrow
+torch
+gensim
+transformers
+gradio
